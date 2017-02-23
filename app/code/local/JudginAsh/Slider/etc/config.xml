@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <JudginAsh_Slider>
+      <version>0.1.0</version>
+    </JudginAsh_Slider>
+  </modules>
+  <global>
+    <blocks>
+      <judginash_slider>
+        <class>JudginAsh_Slider_Block</class>
+      </judginash_slider>
+    </blocks>
+    <helpers>
+      <judginash_slider>
+        <class>JudginAsh_Slider_Helper</class>
+      </judginash_slider>
+    </helpers>
+  </global>
+  <frontend>
+    <layout>
+      <updates>
+        <judginash_slider>
+          <file>judginash_slider.xml</file>
+        </judginash_slider>
+      </updates>
+    </layout>
+  </frontend>
+</config>

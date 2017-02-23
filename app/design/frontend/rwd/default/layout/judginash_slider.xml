@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <cms_index_index>
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/sss.css</stylesheet></action>
+            <action method="addItem"><type>skin_js</type><name>js/sss.min.js</name></action>
+        </reference>
+        <reference name="content">
+            <block type="judginash_slider/slm" name="judginash.slider" template="judginash/slider/slider.phtml" />
+        </reference>
+    </cms_index_index>
+</layout>
